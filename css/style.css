@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url('font/Urbanist-Regular') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url('font/Urbanist-Medium') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-semibold';
+    src: url('font/Urbanist-SemiBold') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-bold';
+    src: url('font/Urbanist-Bold') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-extrabold';
+    src: url('font/Urbanist-ExtraBold') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-black';
+    src: url('font/Urbanist-Black') format('truetype');
+}
+
+:root {
+    --dark-color: #212121;
+    --light-color: #f5f5f5;
+
+    --regular-font: 'urbanist-regular', Arial, Helvetica, sans-serif;
+    --medium-font: 'urbanist-medium', Arial, Helvetica, sans-serif;
+    --semibold-font: 'urbanist-semibold', Arial, Helvetica, sans-serif;
+    --bold-font: 'urbanist-bold', Arial, Helvetica, sans-serif;
+    --extrabold-font: 'urbanist-extrabold', Arial, Helvetica, sans-serif;
+    --black-font: 'urbanist-black', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--medium-font);
+}
