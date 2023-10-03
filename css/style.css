@@ -24,10 +24,28 @@ body {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgba(var(--dark-color), 1);
     color: rgba(var(--dark-color), 1);
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 800ms;
+}
+
+.comic-container .title.active {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .comic-container .wrapper-profile {
     margin-top: 82px;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 800ms;
+}
+
+.comic-container .wrapper-profile.active {
+    transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .comic-container .profile {
@@ -43,6 +61,12 @@ body {
 
 .comic-container .img-comic {
     width: 100%;
+    opacity: 0;
+    transition: 1400ms;
+}
+
+.comic-container .img-comic.active {
+    opacity: 1;
 }
 
 .accordion-item {
